@@ -1,0 +1,11 @@
+---
+application:
+  name: "covid-19"
+  project: "test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-covid-19"
+  routes:
+  - application_name: "covid-19"
+    paths:
+    - "/*"
